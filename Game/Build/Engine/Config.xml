@@ -1,0 +1,14 @@
+<root>
+	<endpointUrl>https://your-id.r2.cloudflarestorage.com</endpointUrl>
+	<bucketName>your-engine</bucketName>
+	<region>auto</region>
+	<rcloneProvider>Cloudflare</rcloneProvider>
+	<rcloneAcl>private</rcloneAcl>
+	<versionBucketName>your-engine-version</versionBucketName>
+	<versionFile>EngineVersion.txt</versionFile>
+	<versionFileUrl>https://your-custom-url-for-the-version-bucket</versionFileUrl>
+	<registryEngineName>YourEngine</registryEngineName>
+	<key>your-key</key>
+	<secret>your-server</secret>
+	<defaultClient>rclone</defaultClient>
+</root>
